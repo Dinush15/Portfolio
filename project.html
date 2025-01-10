@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Projects</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #000;
+            color: #fff;
+        }
+
+        header {
+            text-align: center;
+            padding: 30px;
+            background: linear-gradient(to right, #333, #111);
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+        }
+
+        header p {
+            margin-top: 10px;
+            font-size: 1rem;
+            color: #aaa;
+        }
+
+        .projects-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+            gap: 20px;
+        }
+
+        .project-card {
+            background-color: #222;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+            transition: transform 0.3s, box-shadow 0.3s;
+            max-width: 300px;
+        }
+
+        .project-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.8);
+        }
+
+        .project-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .project-card .content {
+            padding: 15px;
+            text-align: left;
+        }
+
+        .project-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+
+        .project-card p {
+            font-size: 0.9rem;
+            color: #ccc;
+            margin-bottom: 15px;
+            line-height: 1.5;
+        }
+
+        .project-card a {
+            text-decoration: none;
+            color: #6a11cb;
+            font-weight: bold;
+        }
+
+        .project-card a:hover {
+            color: #2575fc;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #111;
+            color: #aaa;
+            margin-top: 30px;
+        }
+
+        footer a {
+            color: #6a11cb;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>My Projects</h1>
+        <p>Explore some of my recent work and contributions</p>
+    </header>
+
+    <main class="projects-container">
+        <div class="project-card">
+            <img src="C:\Users\ADMIN\OneDrive\Desktop\Portfolio\images\turf-logo.png" alt="Project 1">
+            <div class="content">
+                <h3>Turf Booking Platform</h3>
+                <p>A full-stack web application with user authentication, user booking slots, and payment gateway integration.</p>
+                <a href="#">View Details</a>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <img src="C:\Users\ADMIN\OneDrive\Desktop\Portfolio\images\port.png" alt="Project 2">
+            <div class="content">
+                <h3>Portfolio Website</h3>
+                <p>Professional portfolio showcasing My skills, projects, and contact information. Built with HTML, CSS, and JavaScript.</p>
+                <a href="#">View Details</a>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <img src="C:\Users\ADMIN\OneDrive\Desktop\Portfolio\images\task.png" alt="Project 3">
+            <div class="content">
+                <h3>Task Management App</h3>
+                <p>A productivity app to manage tasks with due dates, reminders, and priority levels. Developed with Angular and Firebase.</p>
+                <a href="#">View Details</a>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <img src="C:\Users\ADMIN\OneDrive\Desktop\Portfolio\images\cal image 1.jpg" alt="Project 4">
+            <div class="content">
+                <h3>Calculator App</h3>
+                <p>A simple Python-based calculator application that performs basic arithmetic operations like addition, subtraction, multiplication, and division.</p>
+                <a href="https://github.com/Dinush15/Python-Calculator.git">View Details</a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Your Name. Designed and Developed by <a href="C:\Users\ADMIN\OneDrive\Desktop\Portfolio\portfolio.html">DINUSH</a>.</p>
+    </footer>
+</body>
+
+</html>
